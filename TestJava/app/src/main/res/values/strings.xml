@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">TestJava</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Менторы</string>
+    <string name="title_dashboard">Заявки</string>
+    <string name="title_notifications">Профиль</string>
 
 
     <string-array name="mentor_names">
