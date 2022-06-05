@@ -27,7 +27,7 @@
 
 
     <EditText
-        android:id="@+id/aboutMe"
+        android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -36,7 +36,7 @@
         android:maxLines="5"
         android:text="Люблю математику"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/aboutMeTXT" />
+        app:layout_constraintTop_toBottomOf="@+id/emailTXT" />
 
     <TextView
         android:id="@+id/categoryTXT"
@@ -58,10 +58,10 @@
         android:maxLines="2"
         android:text="9:00-13:00"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/availableTimeTXT" />
+        app:layout_constraintTop_toBottomOf="@+id/passwordTXT" />
 
     <TextView
-        android:id="@+id/aboutMeTXT"
+        android:id="@+id/emailTXT"
         android:layout_width="66dp"
         android:layout_height="22dp"
         android:layout_marginStart="32dp"
@@ -71,7 +71,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/availableTimeTXT"
+        android:id="@+id/passwordTXT"
         android:layout_width="108dp"
         android:layout_height="21dp"
         android:layout_marginStart="32dp"
@@ -93,7 +93,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/changeInfoBTN"
+        android:id="@+id/loginBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="146dp"

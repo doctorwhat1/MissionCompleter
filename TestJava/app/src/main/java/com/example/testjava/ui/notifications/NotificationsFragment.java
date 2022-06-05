@@ -16,6 +16,7 @@ import com.example.testjava.databinding.FragmentNotificationsBinding;
 
 public class NotificationsFragment extends Fragment {
 
+
     private FragmentNotificationsBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -27,19 +28,19 @@ public class NotificationsFragment extends Fragment {
         View root = binding.getRoot();
 
 
+
+        // go to changeProfile button.
 //        Button goToCustomizeActivity = (Button)findViewById(R.id.changeInfoBTN);
-        Button goToCustomizeActivity = binding.goCustomizeBTN;
-        goToCustomizeActivity.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(this, com.example.testjava.ui.notifications.CustomizeProfileActivity.class);
-            }
-        });
+//        Button goToCustomizeActivity = binding.goCustomizeBTN;
+//        goToCustomizeActivity.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(this, CustomizeProfileActivity.class);
+//            }
+//        });
         return root;
     }
 
-    private void startActivity(View.OnClickListener onClickListener, Class<CustomizeProfileActivity> customizeProfileActivityClass) {
-    }
 
 
     @Override
