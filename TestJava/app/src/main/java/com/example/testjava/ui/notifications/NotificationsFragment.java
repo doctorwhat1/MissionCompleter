@@ -1,5 +1,6 @@
 package com.example.testjava.ui.notifications;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,8 +12,10 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.testjava.MainActivity;
 import com.example.testjava.R;
 import com.example.testjava.databinding.FragmentNotificationsBinding;
+import com.example.testjava.ui.RegistryActivity;
 
 public class NotificationsFragment extends Fragment {
 
@@ -30,6 +33,17 @@ public class NotificationsFragment extends Fragment {
 
 
         // go to changeProfile button.
+
+        Button goToCustomizeActivity = binding.goCustomizeBTN;
+
+        goToCustomizeActivity.setOnClickListener(new View.OnClickListener() {
+         @Override
+         public void onClick(View view) {
+            Intent intent1 = new Intent(getContext(), CustomizeProfileActivity.class);
+            startActivity(intent1);
+            }
+         });
+
 //        Button goToCustomizeActivity = (Button)findViewById(R.id.changeInfoBTN);
 //        Button goToCustomizeActivity = binding.goCustomizeBTN;
 //        goToCustomizeActivity.setOnClickListener(new View.OnClickListener() {
