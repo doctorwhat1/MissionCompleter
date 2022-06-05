@@ -11,29 +11,20 @@ import com.example.testjava.MainActivity;
 import com.example.testjava.R;
 
 public class LoginActivity extends AppCompatActivity {
-    //public Button loginbtn;
+    public Button Loginbtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        Button loginBTN = (Button)findViewById(R.id.loginBTN);
-        Button registryBTN = (Button)findViewById(R.id.registryBTN);
+        Button LoginBTN = (Button)findViewById(R.id.loginBTN);
 
-        loginBTN.setOnClickListener(new View.OnClickListener() {
+        LoginBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent1 = new Intent(LoginActivity.this, MainActivity.class);
                 startActivity(intent1);
-            }
-        });
-
-        registryBTN.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                Intent intent2 = new Intent(LoginActivity.this, RegistryActivity.class);
-                startActivity(intent2);
             }
         });
     }
