@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">TestJava</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string-array name="mentor_names">
+        <item>Vasya Ivanov</item>
+        <item>Kostya Petrov</item>
+        <item>Alexey Borodin</item>
+        <item>Михаил Воронин</item>
+        <item>Валерий Кузнецов</item>
+        <item>Лёша Попов</item>
+        <item>Максим Смирнов</item>
+        <item>Владис Love</item>
+        <item>Cool Name</item>
+        <item>Name Template</item>
+        <item>Name Template</item>
+        <item>Name Template</item>
+        <item>Name Template</item>
+        <item>Name Template</item>
+        <item>Name Template</item>
+    </string-array>
+
+    <string-array name="mentor_descriptions">
+        <item>Random description of something lol lol lol xd xd xd xd xd xd xd xd xd xd xd xd</item>
+        <item>Random description of something</item>
+        <item>Random description of something</item>
+
+    </string-array>
+
+    <string-array name="mentor_category">
+        <item>Математика</item>
+        <item>Математика</item>
+        <item>Информатика</item>
+        <item>Русский Язык</item>
+    </string-array>
+
+</resources>
