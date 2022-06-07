@@ -32,21 +32,8 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
 
-    <EditText
-        android:id="@+id/email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:maxLength="0"
-        android:maxLines="0"
-        android:text=""
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailTXT" />
-
     <TextView
-        android:id="@+id/emailTXT"
+        android:id="@+id/aboutMeTXT"
         android:layout_width="66dp"
         android:layout_height="22dp"
         android:layout_marginStart="32dp"
@@ -65,21 +52,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/availableTime"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:maxLength="0"
-        android:maxLines="0"
-        android:text=""
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordTXT" />
-
     <TextView
-        android:id="@+id/passwordTXT"
+        android:id="@+id/availableTimeTXT"
         android:layout_width="104dp"
         android:layout_height="19dp"
         android:layout_marginStart="32dp"
@@ -101,6 +75,26 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.625"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="Изначально эта строчка пустая"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutMeTXT" />
+
+    <TextView
+        android:id="@+id/availableTime"
+        android:layout_width="259dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="32dp"
+        android:text="Эта тоже"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/availableTimeTXT" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

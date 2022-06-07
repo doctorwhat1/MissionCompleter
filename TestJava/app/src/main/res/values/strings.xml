@@ -32,9 +32,9 @@
 
     <string-array name="mentor_category">
         <item>Математика</item>
-        <item>Математика</item>
         <item>Информатика</item>
         <item>Русский Язык</item>
+        <item>Алгебра</item>
     </string-array>
 
 </resources>
