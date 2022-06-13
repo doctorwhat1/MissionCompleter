@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TestJava</string>
+    <string name="app_name">Mission Completer</string>
     <string name="title_home">Менторы</string>
     <string name="title_dashboard">Заявки</string>
     <string name="title_notifications">Профиль</string>
@@ -24,8 +24,8 @@
     </string-array>
 
     <string-array name="mentor_descriptions">
-        <item>Random description of something lol lol lol xd xd xd xd xd xd xd xd xd xd xd xd</item>
-        <item>Random description of something</item>
+        <item>Люблю науку и преподавать её другим </item>
+        <item>Доступен с 9:00 по 18:00 по будням</item>
         <item>Random description of something</item>
 
     </string-array>

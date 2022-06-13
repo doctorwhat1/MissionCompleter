@@ -76,7 +76,7 @@
         android:layout_height="21dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="292dp"
-        android:text="Удобное время"
+        android:text="Для контактов"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
